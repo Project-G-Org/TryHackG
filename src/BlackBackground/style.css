@@ -133,7 +133,7 @@ div.nav-items-container {
     display: flex;
 }
 
-.nav-containers:hover .nav-text {
+.nav-containers:hover .nav-text{
     color: var(--light-primary);
 }
 
@@ -145,16 +145,23 @@ a.nav-link {
     text-decoration: none !important;
 }
 
+
 svg.nav-icone {
     fill: var(--darker-white);
     width: 30px;
     height: 28px;
+    transition: all 0.5s ease-out;
 }
 
 h5.nav-text {
     color: var(--darker-white);
     font-size: 15px;   
     margin-bottom: 0;
+    transition: all 0.5s ease-out;
+}
+.active-link {
+    color: var(--light-primary) !important;
+    fill: var(--light-primary) !important;
 }
 
 #banner-container {
@@ -310,6 +317,7 @@ h1.content-title {
     background-color: var(--darker-primary);
     font-weight: 600;
     font-size: 17px;
+    transition: all 0.5s ease-out;
 }
 
 #formulario {
