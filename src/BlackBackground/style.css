@@ -52,7 +52,7 @@ main {
     margin-top: 70px;
     width: 100%;
     height: fit-content;
-    background-color: var(--darker-white);
+    background-color: var(--light-gray);
 }
 
 #top-of-page {
