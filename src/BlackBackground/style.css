@@ -314,3 +314,14 @@ h1.content-title {
     background-color: var(--light-primary);
     font-weight: bolder;
 }
+footer{
+    border-top: var(--darker-white) 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--darker-gray);
+    color: var(--darker-white);
+    padding-top: 5px;
+    font-size: 15px;
+}
