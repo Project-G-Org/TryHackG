@@ -99,22 +99,6 @@ div.nav-items-container {
     margin: auto;
 }
 
-.vertical-line {
-    /*border: var(--darker-white) 1px solid;
-    border-radius: 25px;*/
-    height: 56px;
-}
-
-/*#left-div-line {
-    border-left: 2px solid var(--darker-white);
-    border-radius: 3px;
-}
-
-#right-div-line {
-    border-right: 2px solid var(--darker-white);
-    border-radius: 3px;
-}*/
-
 .nav-containers {
     height: 58px;
     display: flex;
