@@ -117,7 +117,7 @@ div.nav-items-container {
     display: flex;
 }
 
-.nav-containers:hover .nav-text{
+.nav-containers:hover .nav-text {
     color: var(--light-primary);
 }
 
@@ -139,10 +139,11 @@ svg.nav-icone {
 
 h5.nav-text {
     color: var(--darker-white);
-    font-size: 15px;   
+    font-size: 15px;
     margin-bottom: 0;
     transition: all 0.5s ease-out;
 }
+
 .active-link {
     color: var(--light-primary) !important;
     fill: var(--light-primary) !important;
@@ -195,7 +196,6 @@ h5.nav-text {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content-link {
@@ -247,7 +247,6 @@ h5.nav-text {
 
 h1.content-title {
     color: var(--darker-white);
-    font-family: serif;
     font-weight: 900;
     font-size: 45px;
     margin-bottom: 0;
@@ -255,6 +254,11 @@ h1.content-title {
 
 #feedback-title {
     font-family: sans-serif;
+}
+
+#projeto-text {
+    text-align: justify;
+    text-justify: newspaper;
 }
 
 .line-under-content-title {
@@ -273,15 +277,17 @@ h1.content-title {
 
 .content-text {
     color: var(--darker-white);
-    font-family: sans-serif;
 }
 
 .content-subtitle {
     font-size: 30px;
     font-weight: 550;
-    font-family: serif;
     color: var(--darker-white);
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
+}
+
+#funcionalidades-sub-title {
+    width: 400px;
 }
 
 #functions-list {
@@ -302,10 +308,15 @@ h1.content-title {
     font-weight: 600;
     font-size: 17px;
     transition: all 0.5s ease-out;
+    padding: 0.5em 4em;
 }
 
 #formulario {
     text-decoration: none;
+    color: var(--light-white);
+}
+
+#link {
     color: var(--light-primary);
 }
 
@@ -314,7 +325,8 @@ h1.content-title {
     background-color: var(--light-primary);
     font-weight: bolder;
 }
-footer{
+
+footer {
     border-top: var(--darker-white) 1px solid;
     display: flex;
     flex-direction: column;
